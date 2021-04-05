@@ -1,0 +1,13 @@
+PROGRAM factorial;
+VAR fact: INT;
+VAR n: INT;
+VAR i: INT;
+BEGIN
+   fact := 1;
+   i := 1;
+   WHILE i <= n DO BEGIN
+      fact := fact * i;
+      i := i + 1;
+   END
+   PRINT i
+END
